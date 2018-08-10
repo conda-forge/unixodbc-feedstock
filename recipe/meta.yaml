@@ -1,6 +1,6 @@
 {% set name = "unixODBC" %}
-{% set version = "2.3.5" %}
-{% set sha256 = "760972e05cc6361aee49d676fb7da8244e0f3a225cd4d3449a951378551b495b" %}
+{% set version = "2.3.7" %}
+{% set sha256 = "45f169ba1f454a72b8fcbb82abd832630a3bf93baa84731cf2949f449e1e3e77" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
   run_exports:
     - {{ pin_subpackage('unixodbc', max_pin='x.x') }}
