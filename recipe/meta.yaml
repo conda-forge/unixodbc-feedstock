@@ -21,6 +21,9 @@ requirements:
   build:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
+    - automake
+    - libtool
+    - make
   host:
     - libiconv
     - libedit
