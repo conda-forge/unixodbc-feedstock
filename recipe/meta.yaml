@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1000
   skip: true  # [win]
   run_exports:
     - {{ pin_subpackage('unixodbc', max_pin='x.x') }}
@@ -21,6 +21,9 @@ requirements:
   build:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
+    - automake
+    - libtool
+    - make
   host:
     - libiconv
     - libedit
