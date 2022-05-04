@@ -1,6 +1,6 @@
 {% set name = "unixODBC" %}
-{% set version = "2.3.10" %}
-{% set sha256 = "783c8fe0a26fa6406ad951236f7bfc6555dec63c82d7d1c6d171db392208a15f" %}
+{% set version = "2.3.11" %}
+{% set sha256 = "8da0890c8c9319209660110353e52537c39d97dd9ea5dabf50a56e126f227816" %}
 
 package:
   name: {{ name|lower }}
