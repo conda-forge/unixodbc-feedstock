@@ -1,15 +1,13 @@
 {% set name = "unixODBC" %}
-{% set version = "2.3.12" %}
-{% set sha256 = "f210501445ce21bf607ba51ef8c125e10e22dffdffec377646462df5f01915ec" %}
+{% set version = "2.3.12.dev20230824" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: http://www.unixodbc.org/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  url: https://github.com/lurcher/unixODBC/archive/fb1d543254d0b0ccab97e98c35b3ac1558686975.zip
+  sha256: 7cb506c957c8a8beab237c867c4581ebdc35784cb7f936f20ede9eff3f4ae832
 
 build:
   number: 0
