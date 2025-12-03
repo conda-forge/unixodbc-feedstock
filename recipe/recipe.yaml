@@ -27,9 +27,6 @@ requirements:
   host:
     - libiconv
     - libedit
-  run:
-    - libiconv
-    - libedit
   run_exports:
     - ${{ pin_subpackage('unixodbc', upper_bound='x.x') }}
 
