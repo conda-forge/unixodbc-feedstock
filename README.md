@@ -5,14 +5,13 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/unixodbc-feedst
 
 Home: http://www.unixodbc.org/
 
-Package license: LGPL-2.1
+Package license: LGPL-2.1-only
 
 Summary: ODBC on non MS Windows platforms
 
 The unixODBC Project goals are to develop and promote unixODBC to be the
 definitive standard for ODBC on non MS Windows platforms. This is to
 include GUI support for both KDE and GNOME.
-
 
 Current build status
 ====================
